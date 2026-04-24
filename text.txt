@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prakash Within</title>
+</head>
+<body style="background:black; color:white; text-align:center;">
+
+<h1>Prakash Within</h1>
+<p>Inner thoughts. Discipline. Growth.</p>
+
+<p>“Stay silent. Let your work speak.”</p>
+
+</body>
+</html>
