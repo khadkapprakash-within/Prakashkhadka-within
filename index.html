@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Within</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        p { color: #8b949e; }
+        .quote { font-style: italic; margin-bottom: 40px; color: #58a6ff; }
+        
+        /* Question Box Styling */
+        form {
+            background: #161b22;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+            text-align: left;
+        }
+        label { display: block; margin-bottom: 8px; font-weight: bold; }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            background: #0d1117;
+            color: white;
+            box-sizing: border-box; /* Makes sure padding doesn't break layout */
+        }
+        button {
+            background-color: #238636;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        button:hover { background-color: #2ea043; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Prakash Within</h1>
+        <p>Inner thoughts. Discipline. Growth.</p>
+        <p class="quote">"Stay silent. Let your work speak."</p>
+
+        <form action="https://formspree.io/f/YOUR_ENDPOINT" method="POST">
+            <label>Your Name:</label>
+            <input type="text" name="name" placeholder="Who are you?" required>
+            
+            <label>Ask me anything:</label>
+            <textarea name="message" rows="4" placeholder="Type your question here..." required></textarea>
+            
+            <button type="submit">Send Question</button>
+        </form>
+    </div>
+
+</body>
+</html>
